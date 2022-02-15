@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 3rem 3rem 3rem 5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin: 2rem 2rem 2rem 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.container .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50vh;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .header h1 {
+  margin-right: 1rem;
+}
+
+.container .kartice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+}
+
+.container .kategorije {
+  margin-top: 2rem;
+  max-width: 500px;
+  width: 100%;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .seconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+}
+
+.card {
+  margin-bottom: 3rem;
+  background-color: #e6ecf0;
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    max-width: 350px;
+    width: 100%;
+  }
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buttons .cont {
+  background-color: #6c757d;
+  border: none;
+  margin-right: 1rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.buttons .cont:focus {
+  border-bottom: solid black 2px;
+}
+
+.all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  max-width: 250px;
+  width: 100%;
+  background-color: #6c757d;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 800px;
+    width: 100%;
+    background-color: #282828;
+  }
+  nav ul {
+    color: white;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    text-decoration: none;
+  }
+}
+
+nav ul {
+  margin-top: 5rem;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 800px) {
+  nav ul li {
+    margin-right: 3rem;
+  }
+}
+
+nav .linkic {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+nav .linkic:hover {
+  color: black;
+}
+
+.search {
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=app.css.map */
