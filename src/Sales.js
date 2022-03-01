@@ -28,9 +28,13 @@ const Sales = () => {
 
   //filtering date for the categories
   const filter = (datum) => {
-    const filteredData = orders.filter(
-      (item) => item.date.substr(5, 2) === datum
-    );
+    let filteredData;
+    if (datum === "00") {
+      filteredData = orders.map((item) => item);
+    } else {
+      filteredData = orders.filter((item) => item.date.substr(5, 2) === datum);
+    }
+
     setMenuItems(filteredData);
   };
   return (
