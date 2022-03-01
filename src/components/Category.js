@@ -1,6 +1,13 @@
 import react from "react";
 
 const Category = ({ filter }) => {
+  let newDate = new Date();
+  let todaysDate = newDate.getDate();
+  let month = newDate.getMonth() + 1;
+  if (month < 10) {
+    month = `0${month}`;
+    console.log(parseInt(month));
+  }
   return (
     <div className="buttons">
       <button type="button" className="cont" onClick={() => filter("00")}>
