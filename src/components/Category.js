@@ -23,21 +23,21 @@ const Category = ({ filter }) => {
       {month === "02" ||
       parseInt(month) + 1 === 2 ||
       parseInt(month) - 1 === 2 ? (
-        <button type="button" className="cont" onClick={() => filter("01")}>
+        <button type="button" className="cont" onClick={() => filter("02")}>
           Februar
         </button>
       ) : null}
       {month === "03" ||
       parseInt(month) + 1 === 3 ||
       parseInt(month) - 1 === 3 ? (
-        <button type="button" className="cont" onClick={() => filter("01")}>
+        <button type="button" className="cont" onClick={() => filter("03")}>
           Mart
         </button>
       ) : null}
       {month === "04" ||
       parseInt(month) + 1 === 4 ||
       parseInt(month) - 1 === 4 ? (
-        <button type="button" className="cont" onClick={() => filter("01")}>
+        <button type="button" className="cont" onClick={() => filter("04")}>
           April
         </button>
       ) : null}
